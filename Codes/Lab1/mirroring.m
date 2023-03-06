@@ -8,7 +8,7 @@ for i = size(I,2):-1:1
 end
 
 
-%-----------------------
+%--------Command Window----------
 I = imread('cameraman.tif');
 m = mirroring(I);
 figure, imshow(uint8(m))
